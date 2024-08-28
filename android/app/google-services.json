@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "835252374882",
+    "project_id": "shopbase-732af",
+    "storage_bucket": "shopbase-732af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835252374882:android:43a7c1c40b8ade2a34f03b",
+        "android_client_info": {
+          "package_name": "com.example.shopbase_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaOfKulhs2tVyBVP6sJyQY9ErgrpZr-mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
