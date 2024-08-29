@@ -1,4 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shopbase_firebase/core/extensions/sized_box_constrained_extention.dart';
 import 'package:shopbase_firebase/core/utils/consts/consts.dart';
 import 'package:shopbase_firebase/core/utils/functions/functions.dart';
@@ -54,8 +55,8 @@ class _ProfilePageState extends State<ProfilePage> with AutomaticKeepAliveClient
                       subtitle: Text(
                         cubit.userModel != null
                             ? cubit.userModel!.email.toString()
-                            : "johndoe@gmail.com",
-                        style: TextStyle(color: AppConsts.greyAppColor, fontSize: 13),
+                            : "email@gmail.com",
+                        style: TextStyle(color: AppConsts.greyAppColor, fontSize: 13.sp, fontWeight: FontWeight.bold),
                       ),
                     ),
                     15.kH,

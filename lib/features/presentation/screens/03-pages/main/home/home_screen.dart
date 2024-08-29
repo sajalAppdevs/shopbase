@@ -232,34 +232,34 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin 
                       ),
                     ],
                   ),
-                  30.kH,
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text(
-                              S.of(context).sale_title.toUpperCase(),
-                              style: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold),
-                            ),
-                            buildTextButton(
-                              title: S.of(context).show_all,
-                            )
-                          ],
-                        ),
-                        Text(
-                          S.of(context).sale_subtitle,
-                          style: TextStyle(
-                              fontSize: 14.0,
-                              color: AppConsts.greyAppColor,
-                              fontWeight: FontWeight.bold),
-                        ),
-                      ],
-                    ),
-                  ),
+                  // 30.kH,
+                  // Padding(
+                  //   padding: const EdgeInsets.all(8.0),
+                  //   child: Column(
+                  //     crossAxisAlignment: CrossAxisAlignment.start,
+                  //     children: [
+                  //       Row(
+                  //         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  //         children: [
+                  //           Text(
+                  //             S.of(context).sale_title.toUpperCase(),
+                  //             style: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold),
+                  //           ),
+                  //           buildTextButton(
+                  //             title: S.of(context).show_all,
+                  //           )
+                  //         ],
+                  //       ),
+                  //       Text(
+                  //         S.of(context).sale_subtitle,
+                  //         style: TextStyle(
+                  //             fontSize: 14.0,
+                  //             color: AppConsts.greyAppColor,
+                  //             fontWeight: FontWeight.bold),
+                  //       ),
+                  //     ],
+                  //   ),
+                  // ),
                   10.kH,
                   // Container(
                   //   /// this line code when I do responsive with web:
